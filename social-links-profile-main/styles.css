@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Quicksand:wght@300..700&display=swap");
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 14px;
+  margin: 0;
+  color: hsl(hue, saturation, lightness);
+  font-family: "Inter", sans-serif;
+}
+.card {
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(0, 0%, 12%);
+  padding: 1.5rem;
+  border-radius: 15px;
+  width: 400px;
+  text-align: center;
+}
+.card img {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  margin: 0 auto 1rem auto;
+  display: block;
+}
+.card-title {
+  font-size: 1.5rem;
+
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+.card-text {
+  color: hsl(75, 94%, 57%);
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.more-info {
+  font-size: 14px;
+  font-style: italic;
+  white-space: normal;
+  margin-bottom: 1.5rem;
+}
+button {
+  background-color: hsl(0, 0%, 20%);
+  color: white;
+  border-radius: 6px;
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 14px;
+  text-align: center;
+}
+.buttons button:hover {
+  background-color: #555;
+}
